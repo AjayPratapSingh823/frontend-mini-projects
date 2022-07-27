@@ -1,0 +1,22 @@
+// some important function using to make caluculator
+// to show the value of on click of button in seach bar
+// //function designate(a){
+//     forms.display.value+=a;
+// }
+// forms=form tag
+// display= id of input;
+// value= tag in button;
+// function del(){
+//     var war=forms.display.value;
+//     forms.display.value=war.substring(0,war.length-1)
+// }
+ 
+//  function ac(){
+//      forms.display.value="";
+//       }
+
+// function sqrt(){
+//     var qwerty=forms.display.value;
+//     var store=Math.sqrt(qwerty)
+//     forms.display.value=store;
+// }
