@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Website</title>
+    <link rel="stylesheet" href="style.css"></link>
+</head>
+<body>
+    <div class="hero">
+        <div class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">NEW SONG</a></li>
+                <li><a href="#">ALBUM</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="left">
+                <h1>THE <br>REAL<br>MUSIC</h1>
+            </div>
+            </div>
+            <div class="right">
+                <p>Bensound-sunny</p>
+                    <img src="music.png" id="icon"></img></div>
+            </div>
+            <audio id="mysong">
+    <source src="bensound-sunny.mp3" type="audio/mp3">
+</audio>
+<div class="container">
+    <div class="heading">Music Gallery</div>
+    <div class="music-container">
+        <div class="box">
+            <div class="image">
+                <img src="" alt="">
+            </div>
+            <div class="music">
+                <audio src="bensound-betterdays.mp3" controls></audio>
+            </div>
+        </div>
+    <div class="box">
+        <div class="image">
+            <img src="" alt="">
+            </div>
+        <div class="music">
+            <audio src="bensound-dubstep.mp3" controls></audio>
+        </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="" alt="">
+            </div>
+            <div class="music">
+                <audio src="bensound-adventure.mp3" controls></audio>
+            </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="" alt="">
+                </div>
+                <div class="music">
+                    <audio src="bensound-clearday.mp3" controls></audio>
+                </div>
+            </div>
+</div>
+</div>
+    <script>
+        var mysong=document.getElementById("mysong");
+        var icon=document.getElementById("icon");
+        icon.onclick=function(){
+            if(mysong.paused){
+                mysong.play();
+                icon.scr="bensound-sunny.mp3";
+            }
+            else{
+                mysong.pause();
+                icon.src="music.png";
+            }
+        }
+    </script>
+</body>
+</html>

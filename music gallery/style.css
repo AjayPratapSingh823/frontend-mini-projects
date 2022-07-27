@@ -1,0 +1,93 @@
+*{
+    padding:0;
+    margin:0;
+}
+.hero{
+    width:100%;
+    height:100vh;
+    background-image:url("https://source.unsplash.com/1600x900/?music,studio");
+    background-position:center;
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+    width:88%;
+    padding: 15px 0;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.navbar ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#ffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    display:flex;
+}
+.content{
+    width:100;
+    position:absolute;
+    top:30%;
+}
+.left{
+    margin-left:6%;
+}
+.left h1{
+    font-size:90px;
+    color:#fff;
+    line-height:110px;
+    float:left;
+}
+.right{
+    float:right;
+    margin-right:6%;
+    margin-top:120px;
+    display:flex;
+    align-items:center;
+}
+.right p{
+    font-size:20px;
+    color:#fff;
+    font-family:Sans-serif;
+    margin-right:15px;
+}
+.container{
+    background:#222;
+}
+.container .heading{
+    font-size:40px;
+    padding:2rem 0;
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:0.5rem 1rem #000;
+    color:#ffff;
+}
+.container .music-container{
+    display: flex;
+    align-items:center;
+    flex-flow:column;
+}
+.container .music-container .box{
+  height:16rem;
+  width:80%;
+  display: flex;
+  align-items: center;
+ background-image:url("https://source.unsplash.com/1600x900/?music,karaoke");
+  border-radius: 1rem;
+  box-shadow:0.5rem 1rem #000;
+  margin:23px;
+
+}
+.container .music-container .box .image{
+    height:100%;
+    width:25%;
+}
+.container .music-container .box .image{
+     height: 100%;
+     width: 100%;
+}
