@@ -8,3 +8,5 @@ these are the projects to implement HTML ,CSS and Javascript
 ![expanding ](https://user-images.githubusercontent.com/80371996/181160938-72e746ec-08bb-4809-9543-9ea075bfd9a4.png)
 # music gallery
 ![music](https://user-images.githubusercontent.com/80371996/181161313-abe76bb1-319a-4292-844b-8c2b03d04894.png)
+# Responsive navbar
+![responsive](https://user-images.githubusercontent.com/80371996/181161658-2c0c7624-4a27-444d-9a54-dda38370a082.png)
