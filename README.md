@@ -10,3 +10,5 @@ these are the projects to implement HTML ,CSS and Javascript
 ![music](https://user-images.githubusercontent.com/80371996/181161313-abe76bb1-319a-4292-844b-8c2b03d04894.png)
 # Responsive navbar
 ![responsive](https://user-images.githubusercontent.com/80371996/181161658-2c0c7624-4a27-444d-9a54-dda38370a082.png)
+# Scientific Calculator
+![calculator](https://user-images.githubusercontent.com/80371996/181161909-37638a5e-cec0-4c3b-8fcf-bdb9cbaf8bf0.png)
